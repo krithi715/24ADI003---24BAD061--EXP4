@@ -1,1 +1,5 @@
-# 24ADI003---24BAD061--EXP4
+Scenario 1 – SMS Spam Classification (Multinomial Naïve Bayes)
+In this task, a Multinomial Naïve Bayes model is developed to classify SMS messages as Spam or Ham (Not Spam) using the SMS Spam Collection Dataset available on Kaggle. The project includes loading the dataset, preprocessing SMS text (lowercasing, punctuation removal, and optional stopword removal), converting text into numerical features using Count Vectorization or TF-IDF, training the model, and evaluating it using metrics such as accuracy, precision, recall, and F1-score along with visualizations like a confusion matrix and word analysis. Dataset link: https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
+
+Scenario 2 – Iris Flower Classification (Gaussian Naïve Bayes)
+In this scenario, a Gaussian Naïve Bayes model is used to classify flower species based on physical measurements such as sepal length, sepal width, petal length, and petal width using the Iris Dataset from scikit-learn. The workflow includes inspecting and preprocessing the dataset, applying feature scaling, splitting the data into training and testing sets, training the classifier, predicting species labels, and evaluating performance using accuracy, precision, recall, and F1-score, along with visualizations such as decision boundary plots and confusion matrices.
